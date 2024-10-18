@@ -14,10 +14,10 @@ header {
 }
 
 .navbar {
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -75,19 +75,6 @@ header {
 
 .contact-button:hover {
     background-color: #0088CC;
-}
-
-.section1 {
-    height: 100vh;
-    width: auto;
-    background-color: rgba(16, 144, 203, 0.17);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    flex-direction: column;
-    position: relative;
 }
 
 .hero {
@@ -501,6 +488,9 @@ hr {
     background-color: black;
     color: white;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
 .s6-div {
@@ -573,3 +563,95 @@ hr {
     border-radius: 50%;
     padding: 10px;
 }
+
+/* page about */
+
+.section1AB {
+    height: 100vh;
+    width: 98vw;
+    background-image: url("./assets/images/aboutUS-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section1AB .titlee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top:15px; */
+}
+.section1AB .titlee p {
+    color: #868686;
+    font-size: 18px;
+    max-width: 688px;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.section1AB-buttons {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.section1AB-btn{
+    background-color: #0066CC;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.lkhdama{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 18px;
+    margin-top: 13%;
+}
+.lkhdama img{
+    width: 306px;
+    height: 270px;
+    border-radius:15px 15px 0px 0px;
+}
+
+.dwarat{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2%;
+}
+
+
+.section3AB{
+    /* background-color: #0088CC; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 90px;
+    max-width: 2500px;
+    /* margin-top: 40px; */
+}
+
+.carte1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+}
+.carte2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.carte3{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
